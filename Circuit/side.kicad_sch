@@ -1,0 +1,5252 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e374d433-a98f-44c5-8c2e-683a519b5e2c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -18.542 23.114 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XIAO-nRF52840-SMD"
+				(at -8.636 21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -8.89 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XIAO-nRF52840-SMD_0_1"
+				(rectangle
+					(start -19.05 20.32)
+					(end 17.78 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XIAO-nRF52840-SMD_1_1"
+				(pin passive line
+					(at -21.59 11.43 0)
+					(length 2.54)
+					(name "P0.02_A0_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 7.62 0)
+					(length 2.54)
+					(name "P0.03_A1_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 3.81 0)
+					(length 2.54)
+					(name "P0.28_A2_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 0 0)
+					(length 2.54)
+					(name "P0.29_A3_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -3.81 0)
+					(length 2.54)
+					(name "P0.04_A4_D4_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -7.62 0)
+					(length 2.54)
+					(name "P0.05_A5_D5_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -11.43 0)
+					(length 2.54)
+					(name "P1.11_D6_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "P1.12_D7_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "P1.13_D8_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -3.81 180)
+					(length 2.54)
+					(name "P1.14_D9_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "P1.15_D10_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 3.81 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 11.43 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -21.59 90)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -21.59 90)
+					(length 2.54)
+					(name "NFC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -21.59 90)
+					(length 2.54)
+					(name "NFC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 22.86 270)
+					(length 2.54)
+					(name "PA31_SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 22.86 270)
+					(length 2.54)
+					(name "PA30_SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 22.86 270)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 22.86 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 116.84 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "013fbf85-5f2e-4b3f-80d3-1e727adcb2d6")
+	)
+	(junction
+		(at 129.54 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05613ec3-04d7-4b07-b42e-d30cec830fe0")
+	)
+	(junction
+		(at 154.94 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a8af6c-9388-4b37-a233-3d0c3732d905")
+	)
+	(junction
+		(at 154.94 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dbd6ee3-d039-4966-b965-0ed971e44e6c")
+	)
+	(junction
+		(at 119.38 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eb39903-0e7d-4356-9519-6ad977f5d524")
+	)
+	(junction
+		(at 116.84 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a2f8f4-19ed-4cfd-a9e5-91b3c3f20dab")
+	)
+	(junction
+		(at 132.08 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29be7db3-b883-4e62-88f3-2d665a7620c4")
+	)
+	(junction
+		(at 129.54 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dccbd67-58ae-44de-8bce-35d3f4f2f406")
+	)
+	(junction
+		(at 142.24 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30947d84-7ab7-4921-9d09-10d6fb9bbdc1")
+	)
+	(junction
+		(at 144.78 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a22aa1a-2d74-47f5-97cc-3822996a61f0")
+	)
+	(junction
+		(at 129.54 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c8df99e-6a04-4e25-885d-a8042c4fac31")
+	)
+	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "406c08b8-85f1-46fb-acb1-7022f089e088")
+	)
+	(junction
+		(at 142.24 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b233fbf-3d2a-4590-831e-0a991280af31")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50bbf6e9-2219-4ed0-b137-57df27c543dd")
+	)
+	(junction
+		(at 116.84 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674439dd-2c02-4f2f-91a5-cd1de971914a")
+	)
+	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d99d69-71f5-4896-9121-a867695194f7")
+	)
+	(junction
+		(at 116.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91de1ced-53ce-4d70-88cd-80b77986988f")
+	)
+	(junction
+		(at 142.24 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960e24b8-4c0b-401b-a1e4-ae6568790a02")
+	)
+	(junction
+		(at 129.54 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c93a66f-23e4-424a-a2f8-0ca0fe38eb8f")
+	)
+	(junction
+		(at 116.84 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ea9e347-1b94-425b-928d-8ea83fa8e4ac")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a145b8cd-57b8-4368-8ea9-03d0445f109e")
+	)
+	(junction
+		(at 144.78 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0d51f6c-0b23-4a95-b8ac-b7a48994fb8f")
+	)
+	(junction
+		(at 154.94 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9b8f275-a14f-4a9c-aa24-1770039b33ea")
+	)
+	(junction
+		(at 106.68 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd96ed44-4eae-400a-9b59-d1e96ec57ba7")
+	)
+	(junction
+		(at 116.84 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8f6d561-046e-46a6-887c-f740a068ce96")
+	)
+	(junction
+		(at 119.38 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc6ade7a-e7fb-440a-9e02-a77bcb56f153")
+	)
+	(junction
+		(at 106.68 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9a8af7-00eb-4c91-ab45-6bd01d79fd2d")
+	)
+	(junction
+		(at 129.54 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e19a522b-c4b7-45d8-99ba-b506484aefb8")
+	)
+	(junction
+		(at 142.24 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e47e5702-bc4c-4b9a-ac98-8f2aca807f51")
+	)
+	(junction
+		(at 106.68 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e62954a6-4228-4911-bed1-f0ea48e0b452")
+	)
+	(junction
+		(at 154.94 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c725cd-9337-475c-9d7b-b2a66aeaa7a5")
+	)
+	(junction
+		(at 142.24 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f46fe6-4149-4d95-81d5-64897c851348")
+	)
+	(junction
+		(at 119.38 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f90de41f-903a-49a4-a106-1e480c15b693")
+	)
+	(junction
+		(at 129.54 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fab9f3a6-15c0-426b-9839-542a62746acb")
+	)
+	(junction
+		(at 132.08 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8e1e7a-7c9c-4ca8-9165-937815391add")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055765f3-1599-4f40-abf1-f839c220c8f6")
+	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 129.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1df62a-0467-495c-be4e-a66c36a48fea")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a42fd78-3563-496c-8e7d-efe0c5c2e2d7")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a47db0b-1724-4d99-86a8-5a3874b8a60f")
+	)
+	(wire
+		(pts
+			(xy 106.68 59.69) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21907e5f-e081-45ae-8db8-754d1b12ed88")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 106.68 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2574f4fe-974e-4bda-9687-ed0502d9b817")
+	)
+	(wire
+		(pts
+			(xy 106.68 52.07) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2708e642-43c8-4698-aa16-d0eabbc44251")
+	)
+	(wire
+		(pts
+			(xy 137.16 52.07) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5ae47b-1bc9-4e92-9263-15c7cda89f20")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336bb018-5a81-4322-8189-8742ad1d191d")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dfc0d9-cc10-4b58-ab84-adb19195c5d5")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dacd859-c03a-42df-aec3-9d76a08428a1")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f02d8e2-5d69-4cd6-9071-2ac64fb4e025")
+	)
+	(wire
+		(pts
+			(xy 144.78 59.69) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b729c9d-90eb-4f19-8b8a-999be379dbe5")
+	)
+	(wire
+		(pts
+			(xy 129.54 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d9fc69-e024-4bd4-9237-cb54b4618bc6")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e674c29-b29f-4806-ac3c-d77d7b2d0f13")
+	)
+	(wire
+		(pts
+			(xy 124.46 52.07) (xy 119.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97be1a6-ed45-4ae2-91f4-dce955731cd6")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 142.24 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2ef8f4-4fea-442b-be10-550141e27cd3")
+	)
+	(wire
+		(pts
+			(xy 142.24 81.28) (xy 154.94 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e32bde-99ca-4959-9fcf-16ce848a7845")
+	)
+	(wire
+		(pts
+			(xy 119.38 59.69) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6787a48-ab8a-438a-acf8-d95618ed3ed3")
+	)
+	(wire
+		(pts
+			(xy 132.08 59.69) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa90e38-d784-482e-a7bc-44f7c1a461a1")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0ec75e-5432-442a-b446-ceed3379d2a6")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd066cad-aba8-42d2-a16a-9b710477dc36")
+	)
+	(wire
+		(pts
+			(xy 149.86 52.07) (xy 144.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ef3c53-c57d-471b-9b97-eee063b188a7")
+	)
+	(wire
+		(pts
+			(xy 119.38 52.07) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35a51c2-a9da-4dcd-817c-3ee0a2b0550f")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bd08ba-b1fe-4a0b-8ff9-d83639ef1678")
+	)
+	(wire
+		(pts
+			(xy 144.78 52.07) (xy 144.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60cb719-2178-4a60-8888-9ca4ab545094")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8ad731-90c2-4a12-96a0-5a0172ca646b")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 154.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31eb9fa-baa1-471c-9d0e-10670ba4d84c")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bb4d13-0654-4164-8d07-517791aec446")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3a0f3d-c83a-443d-b8f8-c7c6727d067f")
+	)
+	(label "row4"
+		(at 101.6 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03111dbd-13c9-4b6c-bd82-bdf9a463ce92")
+	)
+	(label "Column4"
+		(at 144.78 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2da0b714-71a8-4235-8fe3-b44b7580640c")
+	)
+	(label "Column1"
+		(at 106.68 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a6b1e17-671d-49fc-ba38-35b1f9ed15eb")
+	)
+	(label "row1"
+		(at 101.6 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "634c1d1b-d9d8-48ac-b507-99e078957918")
+	)
+	(label "Coloumn2"
+		(at 119.38 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72bd2293-5b4a-4e9e-a894-4aeec52594a5")
+	)
+	(label "Column3"
+		(at 132.08 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ebee889-3fb2-49b7-9208-e3906af1d4f9")
+	)
+	(label "row2"
+		(at 101.6 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a50b9e51-189e-49ac-bda7-d87dbdbd3907")
+	)
+	(label "row3"
+		(at 101.6 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6e8d190-2d44-48cc-befe-2aa633592ae2")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00700672-ea77-4062-bbf2-ff26454f525f")
+		(property "Reference" "SW51"
+			(at 145.288 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 141.732 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "608b0fba-0248-42b9-a011-1c0dbf689f4c")
+		)
+		(pin "2"
+			(uuid "026dff77-0179-4064-bacc-2083ecd805f1")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW51")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0585904c-1c06-4d82-9cbb-c50c74b2673c")
+		(property "Reference" "SW55"
+			(at 149.86 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29ad764d-01cd-462a-9a68-ae0d98ce7834")
+		)
+		(pin "2"
+			(uuid "57242395-cb0b-4417-8fb9-dca6228bc354")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW55")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 154.94 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "110f3d67-da28-4d65-8159-39afb481a1c4")
+		(property "Reference" "D24"
+			(at 157.48 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 157.48 64.7699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0d7b5f7d-0bc0-4ce8-acb2-157ffdf36d0a")
+		)
+		(pin "1"
+			(uuid "a663ae7b-2950-47a8-9576-279a8bad91f6")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 129.54 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1240b118-7dff-49f0-b414-b65c070f6643")
+		(property "Reference" "D18"
+			(at 132.08 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 132.08 64.7699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2b19a62f-a31a-4dc8-8980-7f620a89de0b")
+		)
+		(pin "1"
+			(uuid "8ac004db-112e-41a6-aa8a-76904352551d")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ae17381-3e89-4c06-b35d-1c93ec6baeaf")
+		(property "Reference" "SW45"
+			(at 137.16 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b99a48d-6edd-4f91-8eea-dadd3847805e")
+		)
+		(pin "2"
+			(uuid "d07de786-6919-45bf-8622-523c1296d9d3")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW45")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cb8604d-6526-4455-bfff-78798f0d8fa5")
+		(property "Reference" "SW31"
+			(at 111.76 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 111.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 111.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcd186b4-d265-4b1c-89b6-da0cf8169d17")
+		)
+		(pin "2"
+			(uuid "99b4111b-8f51-49e2-ba3f-d5dc9ac9da16")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW31")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 129.54 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27d5f7f7-0090-4952-8c4d-4a27104f6c9e")
+		(property "Reference" "D19"
+			(at 132.08 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 132.08 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "11db0408-d03d-49f6-b1b5-0755db0d1286")
+		)
+		(pin "1"
+			(uuid "7f85ffa7-5e80-4d62-87a2-b674ad108c1f")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "322534fc-03e6-42fa-92b1-cc3e16942307")
+		(property "Reference" "SW32"
+			(at 107.188 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 103.632 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 111.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa8ecc7f-9aaa-40e8-b74f-d6ab2d6600c7")
+		)
+		(pin "2"
+			(uuid "2bceb3f9-41c9-4fd8-a971-d66e802bd04d")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW32")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 142.24 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b09f00-7e8e-4479-a527-5f5fdffb8451")
+		(property "Reference" "D22"
+			(at 144.78 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 144.78 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99937698-f4f1-47f5-b4a8-3238ce5876c7")
+		)
+		(pin "1"
+			(uuid "546eb962-1836-4e8c-9d39-781d11dc38d1")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 142.24 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb63b40-5b78-46e5-b177-b36387170f27")
+		(property "Reference" "D23"
+			(at 144.78 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 144.78 91.4399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34165327-86b6-45bc-82f9-293b9512eb51")
+		)
+		(pin "1"
+			(uuid "796a0d8a-29c8-47a0-a838-0308fbf74581")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4065b825-2898-450f-b7ca-6c7f9a59e392")
+		(property "Reference" "SW37"
+			(at 124.46 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59b3b4db-3d71-41f5-a28f-6764b055f967")
+		)
+		(pin "2"
+			(uuid "a3a004dd-17f5-497a-96b0-568b17627f94")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW37")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43566e04-651f-4a69-a257-fc5ca6bd6bb7")
+		(property "Reference" "SW49"
+			(at 145.288 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 141.732 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39fcc17c-4ef2-4a3a-80a0-a297277b856b")
+		)
+		(pin "2"
+			(uuid "0fe18ae3-0605-4201-9433-daaf3c64ac60")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW49")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44ad6445-c701-40cf-a623-aa4c0df0864e")
+		(property "Reference" "SW46"
+			(at 132.588 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.032 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31001a36-6791-485a-a73c-7865a291e3df")
+		)
+		(pin "2"
+			(uuid "e3595b1b-f413-4449-80aa-3529e10f9fa9")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW46")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45446a6f-db4c-4d4b-adc2-ebd7f7942c72")
+		(property "Reference" "SW43"
+			(at 137.16 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e2a7d78-77be-435f-9d76-a37d8dee9de8")
+		)
+		(pin "2"
+			(uuid "167e031c-cc4e-49c3-9f0d-909e1cb36a6f")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW43")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 116.84 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46a0b0b6-303b-456d-8f90-fd2e89ea3a02")
+		(property "Reference" "D15"
+			(at 119.38 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 119.38 64.7699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 116.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 116.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69cc535e-89bc-4b4e-92b9-8c77e49cff41")
+		)
+		(pin "1"
+			(uuid "a116922a-c59a-46c2-a59e-e23ba26d5ec5")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cc58ba1-5c2a-49c2-bda4-4a771d19c740")
+		(property "Reference" "SW33"
+			(at 111.76 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 111.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 111.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c0c623f-5937-49fa-b52e-bddcada45660")
+		)
+		(pin "2"
+			(uuid "9523bd0f-bae3-49c7-922a-3c251056819e")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW33")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f84025e-7672-433a-994c-bedde55efacc")
+		(property "Reference" "SW35"
+			(at 111.76 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d07a4e7d-0ac2-48f2-a8cf-bb403cc60085")
+		)
+		(pin "2"
+			(uuid "d4296f4d-a6db-4789-bc06-82a7db697390")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW35")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f94235b-2ae3-4816-8002-0c8a5ff67523")
+		(property "Reference" "SW38"
+			(at 119.888 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 116.332 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcc214d9-3bde-47c4-86fd-168a2d770295")
+		)
+		(pin "2"
+			(uuid "74323902-6e08-4030-afbd-44188c81169d")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW38")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72e91710-8c0d-407f-813f-259ed8b2322c")
+		(property "Reference" "SW47"
+			(at 132.588 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.032 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f31a644-449d-4aa0-9b60-d8515dc78dc9")
+		)
+		(pin "2"
+			(uuid "adb14a8a-9ff3-4841-8fa6-6f075feceed7")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW47")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 154.94 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7329a876-2dce-41c1-abad-2d43006f31d3")
+		(property "Reference" "D27"
+			(at 157.48 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 157.48 104.1399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 154.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 154.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "77f4d895-bf1e-4884-a804-912dc4466a0d")
+		)
+		(pin "1"
+			(uuid "0896c4ce-236b-40a2-8e8c-81531b2a1554")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73ce8862-f6c4-448d-a32d-d73ed39f646d")
+		(property "Reference" "SW48"
+			(at 137.16 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4b05e27-6b0a-4459-9881-93db40dbc600")
+		)
+		(pin "2"
+			(uuid "426f3fb5-cd9b-4817-b10b-a79148712ab1")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW48")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7916f9cc-e78f-4c9f-a785-50e890303b57")
+		(property "Reference" "SW39"
+			(at 124.46 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 124.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80145af9-5d50-4ab1-8b94-59119743cf23")
+		)
+		(pin "2"
+			(uuid "67901bb4-3bb1-4a67-b52a-15ba63275f27")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW39")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD")
+		(at 72.39 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8032e916-6605-4532-b58e-e42eaea2e3ba")
+		(property "Reference" "U1"
+			(at 80.8833 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XIAO-nRF52840-SMD"
+			(at 80.8833 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+			(at 63.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "1fe01d4c-6a98-4ae4-957c-d1d41cf3ebab")
+		)
+		(pin "18"
+			(uuid "d306e060-93f6-47a3-8078-5cd873688960")
+		)
+		(pin "4"
+			(uuid "2274fab9-bc13-4682-a5e4-40c1700ab514")
+		)
+		(pin "3"
+			(uuid "b97d9232-7b69-4730-9816-62124b9625d3")
+		)
+		(pin "19"
+			(uuid "549bdef4-0fe1-4462-904a-150cbda43c8f")
+		)
+		(pin "7"
+			(uuid "46166c0f-5714-4697-958f-2e8da23983ab")
+		)
+		(pin "16"
+			(uuid "364f7cc7-3e48-4460-8d4d-f1402f5d0e96")
+		)
+		(pin "9"
+			(uuid "d638868c-2235-45f7-bff5-d65e8bb3c554")
+		)
+		(pin "11"
+			(uuid "c89d1d11-1cd3-4fa0-b0db-7236f69602dd")
+		)
+		(pin "5"
+			(uuid "70aedf9f-9eff-40ad-a152-f265b9b83f5d")
+		)
+		(pin "2"
+			(uuid "99167a2a-c610-4200-bc95-9f73e1a9b020")
+		)
+		(pin "17"
+			(uuid "4c536285-319f-4757-b572-a7826f3fc6da")
+		)
+		(pin "15"
+			(uuid "2b3e1514-d7e1-4b90-9a1c-e1fe66eb2281")
+		)
+		(pin "6"
+			(uuid "7e78148f-2b58-4b51-933a-b3b3a5934710")
+		)
+		(pin "8"
+			(uuid "ca846056-c7e8-497c-b3a7-c25571f176f1")
+		)
+		(pin "21"
+			(uuid "0006c00b-7ca7-4570-81e4-6134a3d25629")
+		)
+		(pin "10"
+			(uuid "56de0a25-c0b6-499a-9e9e-3a9c17f75c79")
+		)
+		(pin "12"
+			(uuid "9733dabc-a600-4e5b-af6a-821e65772f0a")
+		)
+		(pin "1"
+			(uuid "a32fb5a3-3e9e-4f44-9ff5-35a66e99573c")
+		)
+		(pin "20"
+			(uuid "937fb573-c64c-44c7-8b57-05727d34814e")
+		)
+		(pin "22"
+			(uuid "dfcfae3c-80a3-44f4-89e4-e937155f016b")
+		)
+		(pin "13"
+			(uuid "557eee75-01f3-43ef-a846-07ef8a75a4b6")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 129.54 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "863e2d5e-d8d9-4dc3-8bd3-9b1d9f0a94f4")
+		(property "Reference" "D20"
+			(at 132.08 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 132.08 91.4399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac00d663-e415-42ee-935d-0d82eedbf962")
+		)
+		(pin "1"
+			(uuid "17e3da35-154c-478c-b180-c8e6cbd910e6")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8826bd25-700f-4652-84ca-6526634c2fe9")
+		(property "Reference" "SW52"
+			(at 149.86 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 149.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82d2c175-13ea-4737-ac3d-056c435c736c")
+		)
+		(pin "2"
+			(uuid "762b7d6f-f390-444d-a9bb-4e0bba14ea60")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW52")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 116.84 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aaa5e8e-b141-4f94-82a0-b10d4bf5e2d3")
+		(property "Reference" "D17"
+			(at 119.38 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 119.38 91.4399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 116.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 116.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "537aaed3-2045-4394-bf82-a15ba585ab98")
+		)
+		(pin "1"
+			(uuid "f4b3e5dd-6273-4cd1-b8c2-2e35386513dd")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 142.24 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cf00da6-1f9b-45f5-ac1b-32ba9bafcf87")
+		(property "Reference" "D21"
+			(at 144.78 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 144.78 64.7699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3be880bd-fab5-48ea-8a63-2cc98337ce5d")
+		)
+		(pin "1"
+			(uuid "6e690236-a85c-49d0-ac59-fe2c1c81f9e7")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 154.94 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9140d6f3-6a26-406e-b4d3-82a819460646")
+		(property "Reference" "D25"
+			(at 157.48 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 157.48 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79710795-cdd0-47d8-92d2-fd3268d4d406")
+		)
+		(pin "1"
+			(uuid "0ca86b7f-a721-4883-9701-bd070752f0b7")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "925ea95b-6791-4372-8133-9513acd353d3")
+		(property "Reference" "SW53"
+			(at 145.288 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 141.732 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "347b9d24-92dd-44f7-b627-dd38e4d38e8f")
+		)
+		(pin "2"
+			(uuid "54291aa3-f319-4ede-ac9d-364fa048fea4")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW53")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9315d022-71d1-4a14-b412-d6a50876677c")
+		(property "Reference" "SW54"
+			(at 149.86 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c66e920d-1e98-4d04-b126-924b5086277b")
+		)
+		(pin "2"
+			(uuid "6b646794-9758-445a-9dc7-50d8f35587b3")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW54")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "935ad4cc-c835-4820-bd09-7ecd0b4519a1")
+		(property "Reference" "SW36"
+			(at 107.188 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 103.632 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7746528e-d59b-42d4-ae10-741a076154aa")
+		)
+		(pin "2"
+			(uuid "47d56b0c-7bea-46be-af66-cc17852d7cef")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW36")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a11093b0-e280-428d-8b8c-08c08130db29")
+		(property "Reference" "SW41"
+			(at 119.888 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 116.332 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 124.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b391def-b6cc-484a-81af-8e8f8dbcc484")
+		)
+		(pin "2"
+			(uuid "4765cddb-9d71-4ec7-91fd-30260a630cf2")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW41")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b16539e0-369b-427b-84e9-1f50bbdb7651")
+		(property "Reference" "SW44"
+			(at 132.588 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.032 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "204a8a40-679c-4fe3-b775-92226b4639de")
+		)
+		(pin "2"
+			(uuid "d63b3967-3bbb-4205-81b4-f0195ddec072")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW44")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 116.84 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c14e488d-b7b4-4eb2-9112-6d7c8257d81f")
+		(property "Reference" "D16"
+			(at 119.38 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 119.38 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6095bef5-0c8e-447e-8121-0b0f59fbfa43")
+		)
+		(pin "1"
+			(uuid "4790bffe-f1c2-476b-81f2-bbdc8b46c925")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfd30105-9301-48a0-a2e1-668231a729b6")
+		(property "Reference" "SW34"
+			(at 107.188 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 103.632 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 111.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43ca8ae6-fa5b-496e-8a8b-501c99ec6123")
+		)
+		(pin "2"
+			(uuid "7919bbac-3fbd-4e8a-97e3-e7e5c78e5818")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW34")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de183004-14cc-4cfb-af59-8a1e65dbe6aa")
+		(property "Reference" "SW50"
+			(at 149.86 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58486ed8-7e53-4bab-a23d-de02c1228d12")
+		)
+		(pin "2"
+			(uuid "a53369a3-eb36-4da0-9a1b-ce8417bf9280")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW50")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea00a76e-6763-438a-8610-ca388e27bb7d")
+		(property "Reference" "SW56"
+			(at 145.288 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 141.732 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e33a41f4-44dd-4541-8351-99fcb2dbf07c")
+		)
+		(pin "2"
+			(uuid "d5c6fcc7-dd6b-4200-bbda-dc71f5074685")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW56")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3443f01-0035-4cb6-8985-d3c7e0dcb228")
+		(property "Reference" "SW40"
+			(at 119.888 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 116.332 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 124.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c469c10e-e0ff-4899-8c60-4b957a500f63")
+		)
+		(pin "2"
+			(uuid "310cebf1-13ed-4d7e-bcdf-585b952cf378")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW40")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 154.94 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7465e72-b2b4-4194-910f-35d26b2c4e16")
+		(property "Reference" "D26"
+			(at 157.48 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 157.48 91.4399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 154.94 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 154.94 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28bf2d3f-47d6-4989-9270-d0154ca8c8c1")
+		)
+		(pin "1"
+			(uuid "de8ec357-64a4-48f2-bdb1-2c9d4320212e")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f946bdc6-b502-4765-8d4f-6911a31363c3")
+		(property "Reference" "SW42"
+			(at 124.46 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 124.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "809fc270-1a44-4d17-9e57-311979ed3fd0")
+		)
+		(pin "2"
+			(uuid "0b77738b-de66-4379-a381-2a4404a7734d")
+		)
+		(instances
+			(project "Keyboardv1"
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/088ff37d-a834-49f1-96be-a535e5b16b32"
+					(reference "SW42")
+					(unit 1)
+				)
+				(path "/b0afeec1-3f9a-40d5-834d-c51eb0a510bc/a3e3dee8-00f2-465f-8199-a44563b62ab6"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(group ""
+		(uuid "3575b987-e004-4915-b88c-c65d292b69b8")
+		(members "3fb63b40-5b78-46e5-b177-b36387170f27" "72e91710-8c0d-407f-813f-259ed8b2322c"
+			"73ce8862-f6c4-448d-a32d-d73ed39f646d" "f4f46fe6-4149-4d95-81d5-64897c851348"
+		)
+	)
+	(group ""
+		(uuid "3e055e25-2862-4eb4-8a54-69f6edeab24d")
+		(members "07a8af6c-9388-4b37-a233-3d0c3732d905" "110f3d67-da28-4d65-8159-39afb481a1c4"
+			"43566e04-651f-4a69-a257-fc5ca6bd6bb7" "de183004-14cc-4cfb-af59-8a1e65dbe6aa"
+		)
+	)
+	(group ""
+		(uuid "40176526-4256-4810-a114-c4c55827fafe")
+		(members "4cc58ba1-5c2a-49c2-bda4-4a771d19c740" "c14e488d-b7b4-4eb2-9112-6d7c8257d81f"
+			"c8f6d561-046e-46a6-887c-f740a068ce96" "cfd30105-9301-48a0-a2e1-668231a729b6"
+		)
+	)
+	(group ""
+		(uuid "5df5c95e-d2e0-4f22-848a-855a3504483d")
+		(members "00700672-ea77-4062-bbf2-ff26454f525f" "0dbd6ee3-d039-4966-b965-0ed971e44e6c"
+			"8826bd25-700f-4652-84ca-6526634c2fe9" "9140d6f3-6a26-406e-b4d3-82a819460646"
+		)
+	)
+	(group ""
+		(uuid "6380af76-7b69-47b7-8ae0-dac6e4f3ac65")
+		(members "27d5f7f7-0090-4952-8c4d-4a27104f6c9e" "7916f9cc-e78f-4c9f-a785-50e890303b57"
+			"9c93a66f-23e4-424a-a2f8-0ca0fe38eb8f" "f3443f01-0035-4cb6-8985-d3c7e0dcb228"
+		)
+	)
+	(group ""
+		(uuid "79ddfcb0-c8f0-40e6-8ab3-82bf37bd8553")
+		(members "23a2f8f4-19ed-4cfd-a9e5-91b3c3f20dab" "4f84025e-7672-433a-994c-bedde55efacc"
+			"8aaa5e8e-b141-4f94-82a0-b10d4bf5e2d3" "935ad4cc-c835-4820-bd09-7ecd0b4519a1"
+		)
+	)
+	(group ""
+		(uuid "7fbcadfc-f3d7-4bc7-8956-ba632e3b1e23")
+		(members "2dccbd67-58ae-44de-8bce-35d3f4f2f406" "863e2d5e-d8d9-4dc3-8bd3-9b1d9f0a94f4"
+			"a11093b0-e280-428d-8b8c-08c08130db29" "f946bdc6-b502-4765-8d4f-6911a31363c3"
+		)
+	)
+	(group ""
+		(uuid "cb4a1cc6-05b0-43b9-8e13-be86ae5f8943")
+		(members "1ae17381-3e89-4c06-b35d-1c93ec6baeaf" "30947d84-7ab7-4921-9d09-10d6fb9bbdc1"
+			"35b09f00-7e8e-4479-a527-5f5fdffb8451" "44ad6445-c701-40cf-a623-aa4c0df0864e"
+		)
+	)
+	(group ""
+		(uuid "df9d0e16-2ce5-48f7-b34c-286f0d9a6496")
+		(members "45446a6f-db4c-4d4b-adc2-ebd7f7942c72" "4b233fbf-3d2a-4590-831e-0a991280af31"
+			"8cf00da6-1f9b-45f5-ac1b-32ba9bafcf87" "b16539e0-369b-427b-84e9-1f50bbdb7651"
+		)
+	)
+	(group ""
+		(uuid "e7f6d1f9-65ee-43ee-8df7-288eb8ec50f4")
+		(members "925ea95b-6791-4372-8133-9513acd353d3" "9315d022-71d1-4a14-b412-d6a50876677c"
+			"f4c725cd-9337-475c-9d7b-b2a66aeaa7a5" "f7465e72-b2b4-4194-910f-35d26b2c4e16"
+		)
+	)
+	(group ""
+		(uuid "f9a47a0f-6552-4f14-b2a4-b3aa00d822e0")
+		(members "1cb8604d-6526-4455-bfff-78798f0d8fa5" "322534fc-03e6-42fa-92b1-cc3e16942307"
+			"46a0b0b6-303b-456d-8f90-fd2e89ea3a02" "9ea9e347-1b94-425b-928d-8ea83fa8e4ac"
+		)
+	)
+)
